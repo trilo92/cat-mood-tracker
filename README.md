@@ -16,7 +16,7 @@ A cute and cozy mood-tracking app designed with soft pastel colors, cat emojis, 
 
 ## 🖼 Preview
 
-Coming soon... (add a screenshot here once live!)
+![Skjermbilde 2025-05-28 170823](https://github.com/user-attachments/assets/e1298376-f81d-4f89-a34e-11312ebea297)
 
 ---
 
