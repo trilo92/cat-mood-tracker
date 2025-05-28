@@ -1,0 +1,68 @@
+body {
+  background-color: #fef6f9;
+  font-family: 'Quicksand', sans-serif;
+  color: #444;
+}
+
+h1 {
+  color: #d88fa0;
+  font-weight: 600;
+}
+
+.cat-stamp {
+  width: 90px;
+  margin-bottom: 10px;
+  animation: float 3s ease-in-out infinite;
+}
+
+.mood-btn {
+  font-size: 2rem;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border: none;
+  background-color: #f9d5e5;
+  transition: transform 0.2s ease;
+}
+
+.mood-btn:hover {
+  transform: scale(1.1);
+  background-color: #fbb6ce;
+}
+
+.tip-box {
+  font-style: italic;
+  color: #6c757d;
+  background-color: #fff0f5;
+  border-left: 4px solid #f8b0c2;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.luna-helper {
+  background-color: #fce4ec;
+  border-left: 5px solid #f8bbd0;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+  color: #6c4f55;
+  font-weight: 500;
+}
+
+.mood-entry {
+  background-color: #e0f7fa;
+  border-left: 6px solid #4fc3f7;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
